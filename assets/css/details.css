@@ -1,0 +1,19 @@
+#pokemonDetails {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  li {
+    text-transform: capitalize;
+    font-size: larger;
+  } 
